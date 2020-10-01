@@ -1,23 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 
-const FooterSocial = ({
-  className,
-  ...props
-}) => {
-
-  const classes = classNames(
-    'footer-social',
-    className
-  );
-
-  return (
-    <div
-      {...props}
-      className={classes}
-    >
-      <ul className="list-reset">
-        <li>
+       /* <li>
           <a href="https://facebook.com/">
             <svg
               width="16"
@@ -43,7 +27,7 @@ const FooterSocial = ({
             </svg>
           </a>
         </li>
-        <li>
+                <li>
           <a href="https://google.com/">
             <svg
               width="16"
@@ -61,6 +45,27 @@ const FooterSocial = ({
             </svg>
           </a>
         </li>
+        */
+
+
+
+const FooterSocial = ({
+  className,
+  ...props
+}) => {
+
+  const classes = classNames(
+    'footer-social',
+    className
+  );
+
+  return (
+    <div
+      {...props}
+      className={classes}
+    >
+      <ul className="list-reset">
+
       </ul>
     </div>
   );

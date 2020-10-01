@@ -1,11 +1,12 @@
 {
   "name": "open-react-template",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://rpremi12.github.io/ryanpremi",
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
+    "next": "^9.5.3",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -18,8 +19,8 @@
     "url": "https://github.com/cruip/open-react-template.git"
   },
   "scripts": {
-      "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
