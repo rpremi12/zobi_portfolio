@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Work Experience',
+    paragraph: ''
   };
 
   return (
@@ -66,14 +66,14 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                <div className="text-m text-color-primary fw-600 tt-u mb-8">
+                  TransUnion
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Software Engineer Intern
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                   Worked with Node.JS, JavaScript, and AWS Cognito and Lambda to develop a currently confidential project in an Agile team. 
                   </p>
               </div>
               <div className={
@@ -83,7 +83,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/logo-transunion.jpg')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -92,14 +92,14 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                <div className="text-m text-color-primary fw-600 tt-u mb-8">
+                  Portland State University
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Researcher, AI Steering 
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  I worked in a research group an artificial intelligence approach to autonomous vehicle steering. I wrote Python scripts and ran extensive Unity simulations to collect and label over 35,000 files for neural network training. I also wrote 3 of 7 layers in Tensorflow for our Convolutional Neural Network, reduced loss from 0.38 to 0.07.
                   </p>
               </div>
               <div className={
@@ -109,7 +109,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/PSU_logo2.png')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -118,14 +118,14 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                <div className="text-m text-color-primary fw-600 tt-u mb-8">
+                  Intel Inc.
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Software Development Intern
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  I created the backend for a JavaScript image comparison API with 93% accuracy that utilizes a 4 layer algorithmic approach to quickly output changed object positions in images for developers. I lead an Agile development intern group in conducting market research by gathering feedback from over 90 people, as well as creating a detailed business plan for the product.
                   </p>
               </div>
               <div className={
@@ -135,7 +135,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/logo-intel.jpg')}
                   alt="Features split 03"
                   width={528}
                   height={396} />

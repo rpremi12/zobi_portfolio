@@ -79,6 +79,22 @@ const Hero = ({
               </div>
             </div>
           </div>
+
+  
+        </div> 
+      </div>
+    </section>
+  );
+}
+
+Hero.propTypes = propTypes;
+Hero.defaultProps = defaultProps;
+
+export default Hero;
+
+/*
+
+        <!--
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <a
               data-video="https://player.vimeo.com/video/174002812"
@@ -99,14 +115,4 @@ const Hero = ({
             show={videoModalActive}
             handleClose={closeModal}
             video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe" />
-        </div>
-      </div>
-    </section>
-  );
-}
-
-Hero.propTypes = propTypes;
-Hero.defaultProps = defaultProps;
-
-export default Hero;
+            videoTag="iframe" />*/

@@ -44,12 +44,12 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Experience',
+    title: 'Projects',
     paragraph: ''
   };
 
   return (
-    <section
+    <section id ="project-section"
       {...props}
       className={outerClasses}
     >
@@ -71,10 +71,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    PairUp
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                     A Web App that pairs people based on Google-Forms responses. Used to pair 200+ people for club activities.
                     </p>
                 </div>
               </div>
@@ -93,10 +93,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Pythia
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    A Fintech application that takes a Machine Learning and Media Sentiment analysis approach to stock and currency analysis. 
                     </p>
                 </div>
               </div>
@@ -115,10 +115,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    calpolycsa.org
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    Updated and maintained the website for an active 200+ member club. 
                     </p>
                 </div>
               </div>
@@ -137,10 +137,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    DokiDokiEnhanced
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                    <b>SLO Hacks 2018 Award Winner</b><br/> A game that uses facial recognition to have player's emotions impact dialog and story decisions.
                     </p>
                 </div>
               </div>
@@ -159,10 +159,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    Monkey Market
                     </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                     A financial planning tool that picks stock portfolios based on statistic simulations. 
                     </p>
                 </div>
               </div>
@@ -181,10 +181,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Robust Workflow
+                    multiprayer.org
                     </h4>
-                  <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                  <p  className="m-0 text-sm">
+                    <span ><b >Currently down for maintenance.</b></span> <br />
+                    Rebuilt multiprayer.org for a client by scrapping and formatting 300+ Jain texts and adding language options. 
                     </p>
                 </div>
               </div>
