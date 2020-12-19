@@ -59,15 +59,18 @@ const FeaturesSplit = ({
       {...props}
       className={outerClasses}
     >
-      <div className="container">
+      <div id="exper" className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={splitClasses}>
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-m text-color-primary fw-600 tt-u mb-8">
-                  TransUnion
+                <div className="text-xl text-color-primary fw-600 tt-u mb-8">
+                 TransUnion | June-August 2019
+
+                  </div>
+                <div className="text-xxs text-color-secondary fw-600 tt-u mb-8">
                   </div>
                 <h3 className="mt-0 mb-12">
                   Software Engineer Intern
@@ -92,14 +95,14 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                <div className="text-m text-color-primary fw-600 tt-u mb-8">
+                <div className="text-xl text-color-primary fw-600 tt-u mb-8">
                   Portland State University
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Researcher, AI Steering 
+                  Researcher, Autonomous Steering 
                   </h3>
                 <p className="m-0">
-                  I worked in a research group an artificial intelligence approach to autonomous vehicle steering. I wrote Python scripts and ran extensive Unity simulations to collect and label over 35,000 files for neural network training. I also wrote 3 of 7 layers in Tensorflow for our Convolutional Neural Network, reduced loss from 0.38 to 0.07.
+                  I worked in a student research group an artificial intelligence approach to autonomous vehicle steering. I wrote Python scripts and ran extensive Unity simulations to collect and label over 35,000 files for neural network training. I also wrote 3 of 7 layers in Tensorflow for our Convolutional Neural Network, reduced loss from 0.38 to 0.07.
                   </p>
               </div>
               <div className={
@@ -118,7 +121,7 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-m text-color-primary fw-600 tt-u mb-8">
+                <div className="text-xl text-color-primary fw-600 tt-u mb-8">
                   Intel Inc.
                   </div>
                 <h3 className="mt-0 mb-12">
@@ -135,7 +138,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/logo-intel.jpg')}
+                  src={require('./../../assets/images/logo-intel-2.jpg')}
                   alt="Features split 03"
                   width={528}
                   height={396} />
