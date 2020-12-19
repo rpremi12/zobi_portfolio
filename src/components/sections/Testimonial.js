@@ -1,17 +1,18 @@
 import React from 'react';
 import classNames from 'classnames';
-import { SectionTilesProps } from '../../utils/SectionProps';
+import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
+import Image from '../elements/Image';
 
 const propTypes = {
-  ...SectionTilesProps.types
+  ...SectionSplitProps.types
 }
 
 const defaultProps = {
-  ...SectionTilesProps.defaults
+  ...SectionSplitProps.defaults
 }
 
-const Testimonial = ({
+const FeaturesSplit = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -19,12 +20,15 @@ const Testimonial = ({
   bottomDivider,
   hasBgColor,
   invertColor,
-  pushLeft,
+  invertMobile,
+  invertDesktop,
+  alignTop,
+  imageFill,
   ...props
 }) => {
 
   const outerClasses = classNames(
-    'testimonial section',
+    'features-split section',
     topOuterDivider && 'has-top-divider',
     bottomOuterDivider && 'has-bottom-divider',
     hasBgColor && 'has-bg-color',
@@ -33,19 +37,21 @@ const Testimonial = ({
   );
 
   const innerClasses = classNames(
-    'testimonial-inner section-inner',
+    'features-split-inner section-inner',
     topDivider && 'has-top-divider',
     bottomDivider && 'has-bottom-divider'
   );
 
-  const tilesClasses = classNames(
-    'tiles-wrap',
-    pushLeft && 'push-left'
+  const splitClasses = classNames(
+    'split-wrap',
+    invertMobile && 'invert-mobile',
+    invertDesktop && 'invert-desktop',
+    alignTop && 'align-top'
   );
 
   const sectionHeader = {
     title: 'Education',
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    paragraph: ''
   };
 
   return (
@@ -53,62 +59,46 @@ const Testimonial = ({
       {...props}
       className={outerClasses}
     >
-      <div className="container">
+      <div id="exper" className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
-          <div className={tilesClasses}>
+          <div className={splitClasses}>
 
-            <div className="tiles-item reveal-from-right" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Roman Level</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span>
-                </div>
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <div className="text-xl text-color-secondary fw-600 tt-u mb-8">
+                 California Polytechnic State University, San Luis Obispo
+                  </div>
+
+                <h4 className="mt-0 mb-12">
+                  B.S. Computer Science
+                  </h4>
+                 <div className="text-xL text-color-primary fw-600 tt-u mb-8">
+                  Expected Graduation: June 2021
+                  </div>
+                 <div className="text-xL text-color-primary fw-600 tt-u mb-8">
+                   GPA: 3.2
+                  </div>
+                  <div className="text-xL text-color-primary fw-600 tt-u mb-8">
+                  Dean's List
+                    </div>
+ 
+                <p className="m-0">
+                  </p>
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/calpoly.jpg')}
+                  alt="Features split 01"
+                  width={528}
+                  height={396} />
               </div>
             </div>
-
-            <div className="tiles-item reveal-from-bottom">
-              <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-left" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div className="testimonial-item-content">
-                  <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
-                      </p>
-                </div>
-                <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Ben Stafford</span>
-                  <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span>
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
@@ -116,7 +106,7 @@ const Testimonial = ({
   );
 }
 
-Testimonial.propTypes = propTypes;
-Testimonial.defaultProps = defaultProps;
+FeaturesSplit.propTypes = propTypes;
+FeaturesSplit.defaultProps = defaultProps;
 
-export default Testimonial;
+export default FeaturesSplit;
