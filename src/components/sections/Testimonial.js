@@ -71,20 +71,25 @@ const FeaturesSplit = ({
                   </div>
 
                 <h4 className="mt-0 mb-12">
-                  B.S. Computer Science
+                  B.S. Computer Science | June 2021
                   </h4>
+
                  <div className="text-xL text-color-primary fw-600 tt-u mb-8">
-                  Expected Graduation: June 2021
-                  </div>
-                 <div className="text-xL text-color-primary fw-600 tt-u mb-8">
-                   GPA: 3.2
-                  </div>
-                  <div className="text-xL text-color-primary fw-600 tt-u mb-8">
-                  Dean's List
-                    </div>
- 
-                <p className="m-0">
+                                   </div>
+
+                     <h4 className="mt-0">
+                   GPA: 3.2 | Fall 2020 Dean's List 
+                  </h4>
+
+                <h4 className="mt-0 mb-12">
+                Relevant Coursework: 
+                  </h4>
+
+                  <p className='mt'>
+Data Structures, Object Oriented Programming, Intro to Database Systems, Systems Programming, Design and Analysis of Algorithms, Computer Architecture, Intro to Software Engineering.
                   </p>
+
+
               </div>
               <div className={
                 classNames(
