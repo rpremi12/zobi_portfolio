@@ -70,7 +70,7 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <a href ="https://github.com/rpremi12/PairUp"><h4 className="mt-0 mb-8">
+                  <a href ="https://github.com/rpremi12/PairUp"  target="_blank"><h4 className="mt-0 mb-8">
                     PairUp
                     </h4> </a>
                   <p className="m-0 text-sm">
@@ -92,11 +92,11 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                 <a href="https://github.com/rpremi12/pythia"> <h4 className="mt-0 mb-8">
+                 <a href="https://github.com/rpremi12/pythia"  target="_blank"> <h4 className="mt-0 mb-8">
                     Pythia
                     </h4></a>
                   <p className="m-0 text-sm">
-                    A Fintech application that takes a Machine Learning and Media Sentiment analysis approach to stock and currency analysis. 
+                    A Fintech appthat takes a Machine Learning and Media Sentiment analysis approach to stock and currency analysis. 
                     </p>
                 </div>
               </div>
@@ -114,7 +114,7 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <a href ="http://calpolycsa.org/" > <h4 className="mt-0 mb-8">
+                  <a href ="http://calpolycsa.org/"  target="_blank" > <h4 className="mt-0 mb-8">
                     calpolycsa.org
                     </h4></a>
                   <p className="m-0 text-sm">
@@ -136,11 +136,11 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                  <a href ="https://devpost.com/software/dokidokienhanced"><h4 className="mt-0 mb-8">
+                  <a href ="https://devpost.com/software/dokidokienhanced"  target="_blank"><h4 className="mt-0 mb-8">
                  DokiDokiEnhanced
                     </h4></a>
                   <p className="m-0 text-sm">
-                     <a href="https://devpost.com/software/dokidokienhanced"><b>SLO Hacks 2018 Award Winner</b></a><br/> A game that uses facial recognition to have player's emotions impact dialog and story decisions.
+                     <a href="https://devpost.com/software/dokidokienhanced"  target="_blank"><b>SLO Hacks 2018 Award Winner</b></a><br/> A game that uses facial recognition to have player's emotions impact dialog and story decisions.
                     </p>
                 </div>
               </div>
@@ -158,11 +158,11 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                <a href="https://rpremi12.github.io/MonkeyMarket/index.html">  <h4 className="mt-0 mb-8">
+                <a href="https://rpremi12.github.io/MonkeyMarket/index.html"  target="_blank">  <h4 className="mt-0 mb-8">
                     Monkey Market
                     </h4></a>
                   <p className="m-0 text-sm">
-                     A financial planning tool that picks stock portfolios based on statistic simulations. <a href="https://github.com/rpremi12/MonkeyMarket"><b>GitHub</b></a>
+                     A financial planning tool that picks stock portfolios based on statistic simulations. <a  target="_blank" href="https://github.com/rpremi12/MonkeyMarket"><b>GitHub</b></a>
                     </p>
                 </div>
               </div>
