@@ -74,7 +74,7 @@ const FeaturesTiles = ({
                     PairUp
                     </h4> </a>
                   <p className="m-0 text-sm">
-                     A Web App that pairs people based on Google-Forms responses. Used to pair 200+ people for club activities.
+                     A Web App that pairs people based on Google-Forms responses. It has currently paired <b>400+</b> people for varying club activities.
                     </p>
                 </div>
               </div>
@@ -92,11 +92,11 @@ const FeaturesTiles = ({
                   </div>
                 </div>
                 <div className="features-tiles-item-content">
-                 <a href="https://github.com/rpremi12/pythia"  target="_blank"> <h4 className="mt-0 mb-8">
-                    Pythia
-                    </h4></a>
+                  <h4 className="mt-0 mb-8">
+                    Media Check
+                    </h4>
                   <p className="m-0 text-sm">
-                    A Fintech appthat takes a Machine Learning and Media Sentiment analysis approach to stock and currency analysis. 
+                    An app that allows users to view trends in positivity and negativity for given keywords using Web Scraping and Sentiment Analysis. 
                     </p>
                 </div>
               </div>
@@ -137,10 +137,32 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <a href ="https://devpost.com/software/dokidokienhanced"  target="_blank"><h4 className="mt-0 mb-8">
-                 DokiDokiEnhanced
+                 EmotionVN
                     </h4></a>
                   <p className="m-0 text-sm">
-                     <a href="https://devpost.com/software/dokidokienhanced"  target="_blank"><b>SLO Hacks 2018 Award Winner</b></a><br/> A game that uses facial recognition to have player's emotions impact dialog and story decisions.
+                     <a href="https://devpost.com/software/dokidokienhanced"  target="_blank"><b>SLO Hacks 2018 Award Winner</b></a><br/> A game that uses Google Cloud facial recognition to have player's emotions impact dialog and story decisions.
+                    </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('./../../assets/images/feature-tile-icon-02.svg')}
+                      alt="Features tile icon 02"
+                      width={64}
+                      height={64} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                 <a href="https://github.com/rpremi12/pythia"  target="_blank"> <h4 className="mt-0 mb-8">
+                    Pythia
+                    </h4></a>
+                  <p className="m-0 text-sm">
+                    A Fintech app that takes a Machine Learning approach to stock and currency analysis. 
                     </p>
                 </div>
               </div>
@@ -168,7 +190,23 @@ const FeaturesTiles = ({
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+FeaturesTiles.propTypes = propTypes;
+FeaturesTiles.defaultProps = defaultProps;
+
+export default FeaturesTiles;
+
+             
+/*
+             <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
@@ -189,16 +227,4 @@ const FeaturesTiles = ({
                     </p>
                 </div>
               </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-FeaturesTiles.propTypes = propTypes;
-FeaturesTiles.defaultProps = defaultProps;
-
-export default FeaturesTiles;
+            </div>*/

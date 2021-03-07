@@ -71,7 +71,7 @@ const FeaturesSplit = ({
                   </div>
 
                 <h5 className="mt-0 mb-12">
-                  B.S. Computer Science | June 2021
+                  B.S. Computer Science | Graduation: June 2021
                   </h5>
 
                  <div className="text-xL text-color-primary fw-600 tt-u mb-8">
@@ -86,7 +86,7 @@ const FeaturesSplit = ({
                   </h4>
 
                   <p className='mt'>
-Data Structures, Object Oriented Programming, Intro to Database Systems, Systems Programming, Design and Analysis of Algorithms, Intro to Artificial Intelligence, Intro to Software Engineering.
+Data Structures, Object Oriented Programming, Database Modeling/Design/Implementation, Systems Programming, Design and Analysis of Algorithms, Intro to Artificial Intelligence, Intro to Software Engineering.
                   </p>
 
               </div>

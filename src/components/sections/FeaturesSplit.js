@@ -76,7 +76,7 @@ const FeaturesSplit = ({
                   Software Engineer Intern
                   </h3>
                 <p className="m-0">
-                   Worked with Node.JS, JavaScript, and AWS Cognito and Lambda to develop a currently confidential project in an Agile team. 
+                   I worked with Node.JS, JavaScript, and AWS Cognito and Lambda to develop a currently confidential project in an Agile development team. 
                   </p>
               </div>
               <div className={
@@ -99,7 +99,7 @@ const FeaturesSplit = ({
                   Portland State University | Summer 2017
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Researcher, Autonomous Steering 
+                  Researcher, AI Steering 
                   </h3>
                 <p className="m-0">
                   I worked in a student research group an artificial intelligence approach to autonomous vehicle steering. I wrote Python scripts and ran extensive Unity simulations to collect and label over 35,000 files for neural network training. I also wrote 3 of 7 layers in Tensorflow for our Convolutional Neural Network, reduced loss from 0.38 to 0.07.
