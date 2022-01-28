@@ -61,11 +61,11 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Ryan <span className="text-color-primary">Premi</span>
+              Ibrahim <span className="text-color-primary">Zobi</span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Developer | Consultant | Entrepreneur
+                Writing | Teaching | Marketing
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
@@ -73,7 +73,7 @@ const Hero = ({
                     LinkedIn
                     </Button>
                   <Button tag="a" color="dark" wideMobile href="https://github.com/rpremi12/">
-                    Github
+                    Medium
                     </Button>
                 </ButtonGroup>
               </div>
