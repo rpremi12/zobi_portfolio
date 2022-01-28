@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a32a8d24ae68662792438b51c37a594",
+    "revision": "e27fe161e2fe57471afccd1d6482ae60",
     "url": "/zobi_portfolio/index.html"
   },
   {
-    "revision": "d56d6797c0b9c725bddf",
+    "revision": "2c50f53b087612196bbc",
     "url": "/zobi_portfolio/static/css/main.24688f76.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zobi_portfolio/static/js/2.f099e40f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d56d6797c0b9c725bddf",
-    "url": "/zobi_portfolio/static/js/main.93f4c3ba.chunk.js"
+    "revision": "2c50f53b087612196bbc",
+    "url": "/zobi_portfolio/static/js/main.fdfd33b1.chunk.js"
   },
   {
     "revision": "d1832a2873784e979271",
