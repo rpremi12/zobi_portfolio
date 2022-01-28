@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/zobi_portfolio/precache-manifest.a3659b443c44123c6b421b2be141ea05.js"
+  "/zobi_portfolio/precache-manifest.97fcc24100cd4cf9854e5073357ecfef.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "83b6ad385289ba7512defb50526e6459",
+    "revision": "ec844d5a058fa01e1b443349c6214a53",
     "url": "/zobi_portfolio/index.html"
   },
   {
-    "revision": "7722e250001003a1160a",
+    "revision": "b8633e31bf85e3421369",
     "url": "/zobi_portfolio/static/css/main.24688f76.chunk.css"
   },
   {
-    "revision": "22c38c603e9ddb01263c",
-    "url": "/zobi_portfolio/static/js/2.8fa05dcc.chunk.js"
+    "revision": "76b97910ac238d776b20",
+    "url": "/zobi_portfolio/static/js/2.7aee956e.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/zobi_portfolio/static/js/2.8fa05dcc.chunk.js.LICENSE.txt"
+    "url": "/zobi_portfolio/static/js/2.7aee956e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7722e250001003a1160a",
-    "url": "/zobi_portfolio/static/js/main.d575f09c.chunk.js"
+    "revision": "b8633e31bf85e3421369",
+    "url": "/zobi_portfolio/static/js/main.26faa1d5.chunk.js"
   },
   {
     "revision": "d1832a2873784e979271",
@@ -74,5 +74,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d535a4b29620646348a2c3d1f181026b",
     "url": "/zobi_portfolio/static/media/logo-transunion.d535a4b2.jpg"
+  },
+  {
+    "revision": "5fb87a50e81e900525dda4e4beef209a",
+    "url": "/zobi_portfolio/static/media/royal.5fb87a50.png"
   }
 ]);

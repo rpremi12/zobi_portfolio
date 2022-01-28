@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/zobi_portfolio/static/css/main.24688f76.chunk.css",
-    "main.js": "/zobi_portfolio/static/js/main.d575f09c.chunk.js",
-    "main.js.map": "/zobi_portfolio/static/js/main.d575f09c.chunk.js.map",
+    "main.js": "/zobi_portfolio/static/js/main.26faa1d5.chunk.js",
+    "main.js.map": "/zobi_portfolio/static/js/main.26faa1d5.chunk.js.map",
     "runtime-main.js": "/zobi_portfolio/static/js/runtime-main.8e19dc63.js",
     "runtime-main.js.map": "/zobi_portfolio/static/js/runtime-main.8e19dc63.js.map",
-    "static/js/2.8fa05dcc.chunk.js": "/zobi_portfolio/static/js/2.8fa05dcc.chunk.js",
-    "static/js/2.8fa05dcc.chunk.js.map": "/zobi_portfolio/static/js/2.8fa05dcc.chunk.js.map",
+    "static/js/2.7aee956e.chunk.js": "/zobi_portfolio/static/js/2.7aee956e.chunk.js",
+    "static/js/2.7aee956e.chunk.js.map": "/zobi_portfolio/static/js/2.7aee956e.chunk.js.map",
     "index.html": "/zobi_portfolio/index.html",
-    "precache-manifest.a3659b443c44123c6b421b2be141ea05.js": "/zobi_portfolio/precache-manifest.a3659b443c44123c6b421b2be141ea05.js",
+    "precache-manifest.97fcc24100cd4cf9854e5073357ecfef.js": "/zobi_portfolio/precache-manifest.97fcc24100cd4cf9854e5073357ecfef.js",
     "service-worker.js": "/zobi_portfolio/service-worker.js",
     "static/css/main.24688f76.chunk.css.map": "/zobi_portfolio/static/css/main.24688f76.chunk.css.map",
-    "static/js/2.8fa05dcc.chunk.js.LICENSE.txt": "/zobi_portfolio/static/js/2.8fa05dcc.chunk.js.LICENSE.txt",
+    "static/js/2.7aee956e.chunk.js.LICENSE.txt": "/zobi_portfolio/static/js/2.7aee956e.chunk.js.LICENSE.txt",
     "static/media/PSU_logo2.png": "/zobi_portfolio/static/media/PSU_logo2.9fd285f0.png",
     "static/media/background1.jpg": "/zobi_portfolio/static/media/background1.8380c457.jpg",
     "static/media/calpoly.jpg": "/zobi_portfolio/static/media/calpoly.b26d3770.jpg",
@@ -22,12 +22,13 @@
     "static/media/feature-tile-icon-04.svg": "/zobi_portfolio/static/media/feature-tile-icon-04.836acd10.svg",
     "static/media/feature-tile-icon-05.svg": "/zobi_portfolio/static/media/feature-tile-icon-05.fa9ba00b.svg",
     "static/media/logo-intel-2.jpg": "/zobi_portfolio/static/media/logo-intel-2.a4e51215.jpg",
-    "static/media/logo-transunion.jpg": "/zobi_portfolio/static/media/logo-transunion.d535a4b2.jpg"
+    "static/media/logo-transunion.jpg": "/zobi_portfolio/static/media/logo-transunion.d535a4b2.jpg",
+    "static/media/royal.png": "/zobi_portfolio/static/media/royal.5fb87a50.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8e19dc63.js",
-    "static/js/2.8fa05dcc.chunk.js",
+    "static/js/2.7aee956e.chunk.js",
     "static/css/main.24688f76.chunk.css",
-    "static/js/main.d575f09c.chunk.js"
+    "static/js/main.26faa1d5.chunk.js"
   ]
 }
