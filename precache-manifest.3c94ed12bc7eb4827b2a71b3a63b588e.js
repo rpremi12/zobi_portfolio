@@ -1,39 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ec844d5a058fa01e1b443349c6214a53",
+    "revision": "d1ea04a8c13c39f288125e2e8b3d45f2",
     "url": "/zobi_portfolio/index.html"
   },
   {
-    "revision": "b8633e31bf85e3421369",
+    "revision": "c790613fb54e9f9916d0",
     "url": "/zobi_portfolio/static/css/main.24688f76.chunk.css"
   },
   {
-    "revision": "76b97910ac238d776b20",
-    "url": "/zobi_portfolio/static/js/2.7aee956e.chunk.js"
+    "revision": "163688fb7dbf1f23100e",
+    "url": "/zobi_portfolio/static/js/2.f099e40f.chunk.js"
   },
   {
     "revision": "117d65892edc8adcd29d4a0d57b5a80a",
-    "url": "/zobi_portfolio/static/js/2.7aee956e.chunk.js.LICENSE.txt"
+    "url": "/zobi_portfolio/static/js/2.f099e40f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b8633e31bf85e3421369",
-    "url": "/zobi_portfolio/static/js/main.26faa1d5.chunk.js"
+    "revision": "c790613fb54e9f9916d0",
+    "url": "/zobi_portfolio/static/js/main.131f917c.chunk.js"
   },
   {
     "revision": "d1832a2873784e979271",
     "url": "/zobi_portfolio/static/js/runtime-main.8e19dc63.js"
   },
   {
-    "revision": "9fd285f0217caed56368833912f81f2f",
-    "url": "/zobi_portfolio/static/media/PSU_logo2.9fd285f0.png"
+    "revision": "a98e1c7b95837d52d7892c783bf56762",
+    "url": "/zobi_portfolio/static/media/ajil.a98e1c7b.jpg"
   },
   {
     "revision": "8380c4576442edfaf98de950e1388f1e",
     "url": "/zobi_portfolio/static/media/background1.8380c457.jpg"
   },
   {
-    "revision": "b26d377025f1e85b7a270221449fac2c",
-    "url": "/zobi_portfolio/static/media/calpoly.b26d3770.jpg"
+    "revision": "29c2c6bd484e669ba19c0b2debbddf34",
+    "url": "/zobi_portfolio/static/media/calpoly.29c2c6bd.jpg"
+  },
+  {
+    "revision": "53eed9a9411bd1b20c2ddc29eb063580",
+    "url": "/zobi_portfolio/static/media/calpoly3.53eed9a9.jpg"
   },
   {
     "revision": "3ce357e71a836a86691b904396a8955c",
@@ -68,15 +72,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zobi_portfolio/static/media/illustration-section-02.63d0555d.svg"
   },
   {
-    "revision": "a4e512150f6bbfd917fad83b3e38d163",
-    "url": "/zobi_portfolio/static/media/logo-intel-2.a4e51215.jpg"
-  },
-  {
-    "revision": "d535a4b29620646348a2c3d1f181026b",
-    "url": "/zobi_portfolio/static/media/logo-transunion.d535a4b2.jpg"
+    "revision": "4d0f004251aaa58c6cabb5f96e42ba92",
+    "url": "/zobi_portfolio/static/media/kbs.4d0f0042.png"
   },
   {
     "revision": "5fb87a50e81e900525dda4e4beef209a",
     "url": "/zobi_portfolio/static/media/royal.5fb87a50.png"
+  },
+  {
+    "revision": "19ec873acae9c9a7931a4981bbcc0195",
+    "url": "/zobi_portfolio/static/media/zobi.19ec873a.jpg"
   }
 ]);
