@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae15d55d786b287c3f62520e8bdd2cb3",
+    "revision": "83b6ad385289ba7512defb50526e6459",
     "url": "/zobi_portfolio/index.html"
   },
   {
-    "revision": "e6827bb3dabffe32b89b",
+    "revision": "7722e250001003a1160a",
     "url": "/zobi_portfolio/static/css/main.24688f76.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zobi_portfolio/static/js/2.8fa05dcc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e6827bb3dabffe32b89b",
-    "url": "/zobi_portfolio/static/js/main.697aefd3.chunk.js"
+    "revision": "7722e250001003a1160a",
+    "url": "/zobi_portfolio/static/js/main.d575f09c.chunk.js"
   },
   {
     "revision": "d1832a2873784e979271",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zobi_portfolio/static/media/PSU_logo2.9fd285f0.png"
   },
   {
-    "revision": "94ee2657bec453b25f5b4cf1e995de3d",
-    "url": "/zobi_portfolio/static/media/background1.94ee2657.jpg"
+    "revision": "8380c4576442edfaf98de950e1388f1e",
+    "url": "/zobi_portfolio/static/media/background1.8380c457.jpg"
   },
   {
     "revision": "b26d377025f1e85b7a270221449fac2c",
